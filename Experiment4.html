@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .form-box 
+    {
+         border: 2px solid black;   /* draws the box */
+         width: 350px;              /* controls box size */
+         margin: 50px auto;         /* centers the box on screen */
+         padding: 20px;             /* gives space inside box */
+    }
+    </style>
+    <div class="form-box">
+  <!-- your form content here -->
+
+
+    <h1 align="center">Hotel Room Booking Form</h1>
+    <center>
+         <label for="name">Full Name:</label>
+         <input type="text" id="name" name="fullname" required>
+    </center>
+    <br>
+    <center>
+        <label for="email">Email:</label>
+        <input type="text" id="email" nane="email" required>
+    </center>
+    <br>
+    <center>
+        <label for="phone">Phone::</label>
+        <input type="tel" id="phone" nane="phone" required>
+    </center>
+    <br>
+    <center>
+        <label for="checkin">Check in Date:</label>
+        <input type="date" id="checkin" nane="Check in Date">
+    </center>
+    <br>
+    <center>
+        <label for="checkout">Check out Date:</label>
+        <input type="date" id="checkout" nane="Check out Date">
+    </center>
+    <br>
+    <center>
+        <label for="room">Room Type:</label>
+        <select name="Room Type" id="room"> 
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Suite</option>
+            <option>Delux Room</option>
+        </select>
+    </center>
+    <br>
+    <center>
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" nane="Number of Guests:">
+    </center>
+    <br>
+    <center>
+        <label for="requests">Special Requests:</label>
+        <textarea name="Special Requests:" id="requests"></textarea>
+    </center>
+    <br>
+    <center>
+
+        <input type="submit" value="Book Now">
+        <input type="submit" value="Reset form">
+    </center>
+    </div>
+</body>
+</html>

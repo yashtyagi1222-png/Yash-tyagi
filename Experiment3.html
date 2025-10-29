@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: white;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      font-size: 14px;
+    }
+    th {
+      background-color: #444;
+      color: white;
+    }
+    td {
+      vertical-align: middle;
+    }
+    .blue { background-color: #7ec8e3; }     /* EC Subjects */
+    .yellow { background-color: #f7e97c; }   /* AS/HU Subjects */
+    .green { background-color: #b4e197; }    /* ME Subjects */
+    .grey { background-color: #d9d9d9; }     /* VA / Misc */
+  </style>
+</head>
+<body>
+  <h2>College Timetable</h2>
+  <table>
+    <tr>
+      <th>Day / Time</th>
+      <th>I<br>08:50-09:40</th>
+      <th>II<br>09:40-10:30</th>
+      <th>III<br>10:40-11:30</th>
+      <th>IV<br>11:30-12:20</th>
+      <th>V<br>12:20-01:10</th>
+      <th>VI<br>01:10-02:00</th>
+      <th>VII<br>02:00-02:50</th>
+      <th>VIII<br>02:50-03:40</th>
+      <th>IX<br>03:40-04:30</th>
+    </tr>
+
+    <tr>
+      <th>Monday</th>
+      <td colspan="2" class="blue">25EC151<br>(HT, US)<br>Bhabha Block I Floor (BH-115)</td>
+      <td class="yellow">25HU102<br>(NY)<br>RJ-201</td>
+      <td class="yellow">25AS102<br>(AA)<br>RJ-201</td>
+      <td class="blue">25EC101<br>(HT)<br>RJ-201</td>
+      <td></td>
+      <td class="grey">25CS101<br>(ASH)<br>RJ-203</td>
+      <td class="grey">25CS101<br>(ASH)<br>RJ-203</td>
+      <td class="green">25ME101<br>(MYK)<br>RJ-203</td>
+    </tr>
+
+    <tr>
+      <th>Tuesday</th>
+      <td class="green">25ME101<br>(MYK)<br>RJ-205</td>
+      <td class="yellow">25AS102<br>(AA)<br>RJ-205</td>
+      <td class="yellow">25HU101<br>(SPT)<br>RJ-205</td>
+      <td class="grey">25CS151<br>(ASH)<br>RJ-205</td>
+      <td></td>
+      <td></td>
+      <td class="yellow">25AS102<br>(AA)<br>RJ-204</td>
+      <td class="yellow">25HU102<br>(NY)<br>RJ-204</td>
+      <td class="blue">25EC101<br>(HT)<br>RJ-204</td>
+    </tr>
+
+    <tr>
+      <th>Wednesday</th>
+      <td class="blue">25EC101<br>(HT)<br>RJ-205</td>
+      <td class="yellow">25HU101<br>(SPT)<br>RJ-205</td>
+      <td class="green">25ME101<br>(MYK)<br>RJ-205</td>
+      <td class="grey">25VA151<br>(MN)<br>RJ-205</td>
+      <td colspan="2">LUNCH</td>
+      <td class="green">25ME101<br>(MYK)<br>RJ-205</td>
+      <td class="yellow">25AS102<br>(AA)<br>RJ-205</td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <th>Thursday</th>
+      <td class="yellow">25AS102<br>(AA)<br>RJ-302</td>
+      <td class="green">25ME101<br>(MYK)<br>RJ-302</td>
+      <td class="yellow">25HU151<br>(SPT, BCH)<br>KC Block V Floor (KC-510)</td>
+      <td></td>
+      <td class="blue">25EC101<br>(HT)<br>RJ-205</td>
+      <td></td>
+      <td class="grey">Mentor-Mentee<br>(MYK, NY)<br>RJ-203</td>
+      <td class="yellow">25HU102<br>(NY)<br>RJ-203</td>
+      <td class="yellow">25AS102<br>(AA)<br>RJ-203</td>
+    </tr>
+
+    <tr>
+      <th>Friday</th>
+      <td class="grey">25VA151<br>(MN)<br>RJ-205</td>
+      <td class="yellow">25HU101<br>(SPT)<br>RJ-205</td>
+      <td class="yellow">25AS102<br>(AA)<br>RJ-205</td>
+      <td class="grey">25CS101<br>(ASH)<br>RJ-205</td>
+      <td class="grey">25CS101<br>(ASH)<br>RJ-205</td>
+      <td></td>
+      <td class="blue">25EC101<br>(HT)<br>RJ-204</td>
+      <td colspan="2" class="green">25ME151<br>(MYK, VKS)<br>Vishwakarma Block Ground Floor</td>
+    </tr>
+  </table>
+</body>
+</html>
